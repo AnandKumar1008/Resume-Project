@@ -1,0 +1,133 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;  
+}
+body{
+    font-family:sans-serif;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    justify-content: center;
+    width:90%;
+    margin: 20px auto; 
+}
+.left-section{
+    background-color: rgb(216, 210, 210);
+}
+.right-section{
+    background-color:rgb(218, 221, 188);
+}
+.left-content{
+    padding:1rem;
+}
+.profile-image img{
+    display: block;
+    margin:auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width:60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align: center;
+   text-transform: uppercase;
+   letter-spacing:0.02px;
+   padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align:center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+}
+.cp{
+    width: 85%;
+    background-color: red;
+}
+.DSA{
+    width: 90%;
+    background-color: red;
+
+}
+.java{
+    width: 70%;
+    background-color: red;
+}
+.OOPS{
+    width: 70%;
+    background-color: red;
+}
+.HTML{
+    width: 60%;
+    background-color: red;
+}
+.CSS{
+    width: 55%;
+    background-color: red;
+}
+.JS{
+    width: 45%;
+    background-color: red;
+
+}
+.icon div{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom:10px;
+}
+.icon a{
+    /* justify-content: center; */
+    text-decoration: none;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+    margin:0px 10px;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.skill-name p{
+    margin: 10px 0px;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:674px) {
+    main{
+        display: grid; 
+        grid-template-columns: repeat(1,1fr);
+        min-height: 1000px;
+        justify-content: center;
+        width:90%;
+        margin: 20px auto; 
+    }
+}
